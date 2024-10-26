@@ -1,7 +1,8 @@
 import yfinance as yf
 import pandas as pd
 import random 
- 
+  
+
 
 def get_random_titolo():
     x = (random.choice(open("Titoli.txt","r").readline().split()))
@@ -26,7 +27,7 @@ def calculate_support_resistance(data):
 
 pivot_point, support_l1, support_l2, resistance_l1, resistance_l2 = calculate_support_resistance(stock_data)
 
-# Create a DataFrame to store the calculated levels
+#DA FIXARE
 #levels_data = pd.DataFrame({'Pivot Point': pivot_point,
 #                            'Support Level 1': support_l1,
 #                            'Support Level 2': support_l2,
