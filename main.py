@@ -27,9 +27,11 @@ def calculate_support_resistance(data):
 
 pivot_point, support_l1, support_l2, resistance_l1, resistance_l2 = calculate_support_resistance(stock_data)
 
+
+
 #DA FIXARE
 #levels_data = pd.DataFrame({'Pivot Point': pivot_point,
 #                            'Support Level 1': support_l1,
 #                            'Support Level 2': support_l2,
 #                            'Resistance Level 1': resistance_l1,
-#                            'Resistance Level 2': resistance_l2})
+#                            'Resistance Level 2': resistance_l2}
